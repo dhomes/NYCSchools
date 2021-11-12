@@ -10,7 +10,7 @@ import SwiftUI
     Note:
     - Project can't have requested name YYYYMMDD_FirstLast_NYCSchools name format
     - SwiftUI Previews throw errors on project names starting with a number
-    - Could use _YYYYMMDD or reserver convention, decided for the later
+    - Could use _YYYYMMDD or reverse convention, decided for the later
  */
 @main
 struct NYCSchools_DavidHomes_20211018App: App {
