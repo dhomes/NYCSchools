@@ -1,0 +1,613 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B9622856271E8BEE0061EC1E /* NYCSchools_DavidHomes_20211018App.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9622855271E8BEE0061EC1E /* NYCSchools_DavidHomes_20211018App.swift */; };
+		B962285A271E8BEF0061EC1E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B9622859271E8BEF0061EC1E /* Assets.xcassets */; };
+		B962285D271E8BEF0061EC1E /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B962285C271E8BEF0061EC1E /* Preview Assets.xcassets */; };
+		B9622867271E8BEF0061EC1E /* NYCSchools_DavidHomes_20211018Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9622866271E8BEF0061EC1E /* NYCSchools_DavidHomes_20211018Tests.swift */; };
+		B962288B271E8C130061EC1E /* AppError.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9622881271E8C130061EC1E /* AppError.swift */; };
+		B962288C271E8C130061EC1E /* NYCSchoolAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9622882271E8C130061EC1E /* NYCSchoolAPI.swift */; };
+		B962288D271E8C130061EC1E /* NYCSchool.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9622883271E8C130061EC1E /* NYCSchool.swift */; };
+		B962288F271E8C130061EC1E /* School.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9622886271E8C130061EC1E /* School.swift */; };
+		B9622890271E8C130061EC1E /* API.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9622887271E8C130061EC1E /* API.swift */; };
+		B9622891271E8C130061EC1E /* SchoolRowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9622889271E8C130061EC1E /* SchoolRowView.swift */; };
+		B9622892271E8C130061EC1E /* SchoolListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B962288A271E8C130061EC1E /* SchoolListView.swift */; };
+		B9622899271E8CFA0061EC1E /* Unwrap.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9622896271E8CF90061EC1E /* Unwrap.swift */; };
+		B962289E271E933D0061EC1E /* SchoolDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B962289D271E933D0061EC1E /* SchoolDetailView.swift */; };
+		B96228A0271E96310061EC1E /* SchoolScore.swift in Sources */ = {isa = PBXBuildFile; fileRef = B962289F271E96310061EC1E /* SchoolScore.swift */; };
+		B96228A2271E970C0061EC1E /* NYCSchoolScore.swift in Sources */ = {isa = PBXBuildFile; fileRef = B96228A1271E970C0061EC1E /* NYCSchoolScore.swift */; };
+		B96228A4271E98AF0061EC1E /* APITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B96228A3271E98AF0061EC1E /* APITests.swift */; };
+		B96228A7271EA43E0061EC1E /* SchoolListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B96228A6271EA43E0061EC1E /* SchoolListViewModel.swift */; };
+		B96228AA271EA4650061EC1E /* SchoolDetailViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B96228A9271EA4650061EC1E /* SchoolDetailViewModel.swift */; };
+		B96228B5271EAA560061EC1E /* School+Annotation+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = B96228B4271EAA560061EC1E /* School+Annotation+Extensions.swift */; };
+		B96228B7271EAA5D0061EC1E /* CLLocation.swift in Sources */ = {isa = PBXBuildFile; fileRef = B96228B6271EAA5D0061EC1E /* CLLocation.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		B9622863271E8BEF0061EC1E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B962284A271E8BEE0061EC1E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B9622851271E8BEE0061EC1E;
+			remoteInfo = "NYCSchools-DavidHomes-20211018";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		B9622852271E8BEE0061EC1E /* NYCSchools-DavidHomes-20211018.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "NYCSchools-DavidHomes-20211018.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B9622855271E8BEE0061EC1E /* NYCSchools_DavidHomes_20211018App.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NYCSchools_DavidHomes_20211018App.swift; sourceTree = "<group>"; };
+		B9622859271E8BEF0061EC1E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B962285C271E8BEF0061EC1E /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		B9622862271E8BEF0061EC1E /* NYCSchools-DavidHomes-20211018Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "NYCSchools-DavidHomes-20211018Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B9622866271E8BEF0061EC1E /* NYCSchools_DavidHomes_20211018Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NYCSchools_DavidHomes_20211018Tests.swift; sourceTree = "<group>"; };
+		B9622881271E8C130061EC1E /* AppError.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppError.swift; sourceTree = "<group>"; };
+		B9622882271E8C130061EC1E /* NYCSchoolAPI.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NYCSchoolAPI.swift; sourceTree = "<group>"; };
+		B9622883271E8C130061EC1E /* NYCSchool.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NYCSchool.swift; sourceTree = "<group>"; };
+		B9622886271E8C130061EC1E /* School.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = School.swift; sourceTree = "<group>"; };
+		B9622887271E8C130061EC1E /* API.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = API.swift; sourceTree = "<group>"; };
+		B9622889271E8C130061EC1E /* SchoolRowView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SchoolRowView.swift; sourceTree = "<group>"; };
+		B962288A271E8C130061EC1E /* SchoolListView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SchoolListView.swift; sourceTree = "<group>"; };
+		B9622896271E8CF90061EC1E /* Unwrap.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Unwrap.swift; sourceTree = "<group>"; };
+		B962289D271E933D0061EC1E /* SchoolDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SchoolDetailView.swift; sourceTree = "<group>"; };
+		B962289F271E96310061EC1E /* SchoolScore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SchoolScore.swift; sourceTree = "<group>"; };
+		B96228A1271E970C0061EC1E /* NYCSchoolScore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NYCSchoolScore.swift; sourceTree = "<group>"; };
+		B96228A3271E98AF0061EC1E /* APITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APITests.swift; sourceTree = "<group>"; };
+		B96228A6271EA43E0061EC1E /* SchoolListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SchoolListViewModel.swift; sourceTree = "<group>"; };
+		B96228A9271EA4650061EC1E /* SchoolDetailViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SchoolDetailViewModel.swift; sourceTree = "<group>"; };
+		B96228B4271EAA560061EC1E /* School+Annotation+Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "School+Annotation+Extensions.swift"; sourceTree = "<group>"; };
+		B96228B6271EAA5D0061EC1E /* CLLocation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CLLocation.swift; sourceTree = "<group>"; };
+		B96228B8271EB4190061EC1E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B962284F271E8BEE0061EC1E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B962285F271E8BEF0061EC1E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B9622849271E8BEE0061EC1E = {
+			isa = PBXGroup;
+			children = (
+				B9622854271E8BEE0061EC1E /* NYCSchools-DavidHomes-20211018 */,
+				B9622865271E8BEF0061EC1E /* NYCSchools-DavidHomes-20211018Tests */,
+				B9622853271E8BEE0061EC1E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B9622853271E8BEE0061EC1E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B9622852271E8BEE0061EC1E /* NYCSchools-DavidHomes-20211018.app */,
+				B9622862271E8BEF0061EC1E /* NYCSchools-DavidHomes-20211018Tests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B9622854271E8BEE0061EC1E /* NYCSchools-DavidHomes-20211018 */ = {
+			isa = PBXGroup;
+			children = (
+				B9622855271E8BEE0061EC1E /* NYCSchools_DavidHomes_20211018App.swift */,
+				B9622859271E8BEF0061EC1E /* Assets.xcassets */,
+				B962289A271E8D250061EC1E /* Extensions */,
+				B96228B9271EB4B00061EC1E /* Helpers */,
+				B962287F271E8C130061EC1E /* Model */,
+				B962285B271E8BEF0061EC1E /* Preview Content */,
+				B9622888271E8C130061EC1E /* Views */,
+			);
+			path = "NYCSchools-DavidHomes-20211018";
+			sourceTree = "<group>";
+		};
+		B962285B271E8BEF0061EC1E /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				B962285C271E8BEF0061EC1E /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		B9622865271E8BEF0061EC1E /* NYCSchools-DavidHomes-20211018Tests */ = {
+			isa = PBXGroup;
+			children = (
+				B96228B8271EB4190061EC1E /* Info.plist */,
+				B96228A3271E98AF0061EC1E /* APITests.swift */,
+				B9622866271E8BEF0061EC1E /* NYCSchools_DavidHomes_20211018Tests.swift */,
+			);
+			path = "NYCSchools-DavidHomes-20211018Tests";
+			sourceTree = "<group>";
+		};
+		B962287F271E8C130061EC1E /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				B9622884271E8C130061EC1E /* Protocols */,
+				B9622880271E8C130061EC1E /* Types */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		B9622880271E8C130061EC1E /* Types */ = {
+			isa = PBXGroup;
+			children = (
+				B9622881271E8C130061EC1E /* AppError.swift */,
+				B9622883271E8C130061EC1E /* NYCSchool.swift */,
+				B9622882271E8C130061EC1E /* NYCSchoolAPI.swift */,
+				B96228A1271E970C0061EC1E /* NYCSchoolScore.swift */,
+			);
+			path = Types;
+			sourceTree = "<group>";
+		};
+		B9622884271E8C130061EC1E /* Protocols */ = {
+			isa = PBXGroup;
+			children = (
+				B9622887271E8C130061EC1E /* API.swift */,
+				B9622886271E8C130061EC1E /* School.swift */,
+				B962289F271E96310061EC1E /* SchoolScore.swift */,
+			);
+			path = Protocols;
+			sourceTree = "<group>";
+		};
+		B9622888271E8C130061EC1E /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				B96228A8271EA4470061EC1E /* SchoolDetailView */,
+				B96228A5271EA4260061EC1E /* SchoolListView */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		B962289A271E8D250061EC1E /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				B96228B4271EAA560061EC1E /* School+Annotation+Extensions.swift */,
+				B96228B6271EAA5D0061EC1E /* CLLocation.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		B96228A5271EA4260061EC1E /* SchoolListView */ = {
+			isa = PBXGroup;
+			children = (
+				B962288A271E8C130061EC1E /* SchoolListView.swift */,
+				B96228A6271EA43E0061EC1E /* SchoolListViewModel.swift */,
+				B9622889271E8C130061EC1E /* SchoolRowView.swift */,
+			);
+			path = SchoolListView;
+			sourceTree = "<group>";
+		};
+		B96228A8271EA4470061EC1E /* SchoolDetailView */ = {
+			isa = PBXGroup;
+			children = (
+				B962289D271E933D0061EC1E /* SchoolDetailView.swift */,
+				B96228A9271EA4650061EC1E /* SchoolDetailViewModel.swift */,
+			);
+			path = SchoolDetailView;
+			sourceTree = "<group>";
+		};
+		B96228B9271EB4B00061EC1E /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				B9622896271E8CF90061EC1E /* Unwrap.swift */,
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B9622851271E8BEE0061EC1E /* NYCSchools-DavidHomes-20211018 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B9622876271E8BEF0061EC1E /* Build configuration list for PBXNativeTarget "NYCSchools-DavidHomes-20211018" */;
+			buildPhases = (
+				B962284E271E8BEE0061EC1E /* Sources */,
+				B962284F271E8BEE0061EC1E /* Frameworks */,
+				B9622850271E8BEE0061EC1E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "NYCSchools-DavidHomes-20211018";
+			productName = "NYCSchools-DavidHomes-20211018";
+			productReference = B9622852271E8BEE0061EC1E /* NYCSchools-DavidHomes-20211018.app */;
+			productType = "com.apple.product-type.application";
+		};
+		B9622861271E8BEF0061EC1E /* NYCSchools-DavidHomes-20211018Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B9622879271E8BEF0061EC1E /* Build configuration list for PBXNativeTarget "NYCSchools-DavidHomes-20211018Tests" */;
+			buildPhases = (
+				B962285E271E8BEF0061EC1E /* Sources */,
+				B962285F271E8BEF0061EC1E /* Frameworks */,
+				B9622860271E8BEF0061EC1E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B9622864271E8BEF0061EC1E /* PBXTargetDependency */,
+			);
+			name = "NYCSchools-DavidHomes-20211018Tests";
+			productName = "NYCSchools-DavidHomes-20211018Tests";
+			productReference = B9622862271E8BEF0061EC1E /* NYCSchools-DavidHomes-20211018Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B962284A271E8BEE0061EC1E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1300;
+				LastUpgradeCheck = 1300;
+				TargetAttributes = {
+					B9622851271E8BEE0061EC1E = {
+						CreatedOnToolsVersion = 13.0;
+					};
+					B9622861271E8BEF0061EC1E = {
+						CreatedOnToolsVersion = 13.0;
+						TestTargetID = B9622851271E8BEE0061EC1E;
+					};
+				};
+			};
+			buildConfigurationList = B962284D271E8BEE0061EC1E /* Build configuration list for PBXProject "NYCSchools-DavidHomes-20211018" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B9622849271E8BEE0061EC1E;
+			productRefGroup = B9622853271E8BEE0061EC1E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B9622851271E8BEE0061EC1E /* NYCSchools-DavidHomes-20211018 */,
+				B9622861271E8BEF0061EC1E /* NYCSchools-DavidHomes-20211018Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B9622850271E8BEE0061EC1E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B962285D271E8BEF0061EC1E /* Preview Assets.xcassets in Resources */,
+				B962285A271E8BEF0061EC1E /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B9622860271E8BEF0061EC1E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B962284E271E8BEE0061EC1E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B962289E271E933D0061EC1E /* SchoolDetailView.swift in Sources */,
+				B9622899271E8CFA0061EC1E /* Unwrap.swift in Sources */,
+				B96228A2271E970C0061EC1E /* NYCSchoolScore.swift in Sources */,
+				B96228A0271E96310061EC1E /* SchoolScore.swift in Sources */,
+				B9622891271E8C130061EC1E /* SchoolRowView.swift in Sources */,
+				B962288F271E8C130061EC1E /* School.swift in Sources */,
+				B96228B5271EAA560061EC1E /* School+Annotation+Extensions.swift in Sources */,
+				B96228B7271EAA5D0061EC1E /* CLLocation.swift in Sources */,
+				B962288D271E8C130061EC1E /* NYCSchool.swift in Sources */,
+				B962288B271E8C130061EC1E /* AppError.swift in Sources */,
+				B962288C271E8C130061EC1E /* NYCSchoolAPI.swift in Sources */,
+				B9622856271E8BEE0061EC1E /* NYCSchools_DavidHomes_20211018App.swift in Sources */,
+				B96228A7271EA43E0061EC1E /* SchoolListViewModel.swift in Sources */,
+				B96228AA271EA4650061EC1E /* SchoolDetailViewModel.swift in Sources */,
+				B9622890271E8C130061EC1E /* API.swift in Sources */,
+				B9622892271E8C130061EC1E /* SchoolListView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B962285E271E8BEF0061EC1E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B96228A4271E98AF0061EC1E /* APITests.swift in Sources */,
+				B9622867271E8BEF0061EC1E /* NYCSchools_DavidHomes_20211018Tests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		B9622864271E8BEF0061EC1E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B9622851271E8BEE0061EC1E /* NYCSchools-DavidHomes-20211018 */;
+			targetProxy = B9622863271E8BEF0061EC1E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		B9622874271E8BEF0061EC1E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		B9622875271E8BEF0061EC1E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B9622877271E8BEF0061EC1E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"NYCSchools-DavidHomes-20211018/Preview Content\"";
+				DEVELOPMENT_TEAM = MM68ANJS23;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.davidhomes.NYCSchools-DavidHomes-20211018";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		B9622878271E8BEF0061EC1E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"NYCSchools-DavidHomes-20211018/Preview Content\"";
+				DEVELOPMENT_TEAM = MM68ANJS23;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.davidhomes.NYCSchools-DavidHomes-20211018";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		B962287A271E8BEF0061EC1E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = MM68ANJS23;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "NYCSchools-DavidHomes-20211018Tests/Info.plist";
+				INFOPLIST_KEY_LSApplicationCategoryType = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.davidhomes.NYCSchools-DavidHomes-20211018Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/NYCSchools-DavidHomes-20211018.app/NYCSchools-DavidHomes-20211018";
+			};
+			name = Debug;
+		};
+		B962287B271E8BEF0061EC1E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = MM68ANJS23;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "NYCSchools-DavidHomes-20211018Tests/Info.plist";
+				INFOPLIST_KEY_LSApplicationCategoryType = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.davidhomes.NYCSchools-DavidHomes-20211018Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/NYCSchools-DavidHomes-20211018.app/NYCSchools-DavidHomes-20211018";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B962284D271E8BEE0061EC1E /* Build configuration list for PBXProject "NYCSchools-DavidHomes-20211018" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B9622874271E8BEF0061EC1E /* Debug */,
+				B9622875271E8BEF0061EC1E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B9622876271E8BEF0061EC1E /* Build configuration list for PBXNativeTarget "NYCSchools-DavidHomes-20211018" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B9622877271E8BEF0061EC1E /* Debug */,
+				B9622878271E8BEF0061EC1E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B9622879271E8BEF0061EC1E /* Build configuration list for PBXNativeTarget "NYCSchools-DavidHomes-20211018Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B962287A271E8BEF0061EC1E /* Debug */,
+				B962287B271E8BEF0061EC1E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B962284A271E8BEE0061EC1E /* Project object */;
+}
